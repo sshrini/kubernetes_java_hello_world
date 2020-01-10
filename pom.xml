@@ -65,9 +65,12 @@
 				<artifactId>jib-maven-plugin</artifactId>
 				<version>1.8.0</version>
 				<configuration>
+					<configuration>
 					<to>
-						<image>myimage</image>
+					 <image>gcr.io/earnest-setup-264423/hello-world-java</image>
+					 <credHelper>gcr</credHelper>
 					</to>
+				</configuration>
 				</configuration>
 			</plugin>
 		</plugins>
